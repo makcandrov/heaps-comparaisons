@@ -20,7 +20,7 @@ La principale optimisations est la suppression des swaps. En effet, quand on ajo
 
 ## 3-tas
 
-Le 3-tas est un tas avec 3 branches. D'un point de vue purement théorique, cette structure de données est meilleure que le 2-tas [Pour s'en convaicre, pour un k-tas une suppression / un ajout nécessite de l'ordre de $k * log_k(n) = (k / ln(k)) * ln(n)$ opérations. La complexité asymptotique est donc la même (O(ln(n)) mais al constante de complexité est de l'ordre de (k / ln(k)), fonction de k qui atteint son minimum sur N en 3, et non en 2]
+Le 3-tas est un tas avec 3 branches. D'un point de vue purement théorique, cette structure de données est meilleure que le 2-tas [Pour s'en convaicre, pour un k-tas une suppression / un ajout nécessite de l'ordre de $k * log_k(n) = (k / ln(k)) * ln(n)$ opérations. La complexité asymptotique est donc la même $O(ln(n)$ mais la constante de complexité est de l'ordre de $k / ln(k)$, fonction de k qui atteint son minimum sur N en 3, et non en 2]
 
 Ce tas comprend également les optimisations détaillées précédemment. Cette structure économise jusqu'à 30% de gas par rapport à la première.
 
